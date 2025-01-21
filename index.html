@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./script.js"></script>
+</head>
+<body onload="fråga()">
+    <h1>Frågesport Huvudstäder</h1>
+    <div class="fråga_div">
+        <p id="fråga"> FRÅGA: fråga 1  </p>
+    </div>
+
+    <div class="svar_div">
+        <label >Ange ditt svar <input type="text" id="svar" size="20"></label>
+        <button onclick="ange_svar()">Klicka för svar</button>
+    </div>
+
+    <div>
+        <p id="resultat">SVAR: svar 1</p>
+        <button onclick="fråga()">Ny Fråga</button>
+        <button onclick="starta_om()">Nollställ</button>
+    </div>
+</body>
+</html>
