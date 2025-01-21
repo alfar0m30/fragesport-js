@@ -1,5 +1,5 @@
 const länder = ["Holland", "Belgien", "Italien", "Rumänien", "Albanien", "Tjeckien", "Polen", "Österrike"];
-const städer = ["Amsterdam", "Bryssel", "Rom", "Bukarest", "Tirana", "Prag", "Warzawa", "Österrike"];
+const städer = ["Amsterdam", "Bryssel", "Rom", "Bukarest", "Tirana", "Prag", "Warzawa", "Wien"];
 
 let p_fråga = document.querySelector("#fråga");
 let input_svar=document.querySelector("#svar");
