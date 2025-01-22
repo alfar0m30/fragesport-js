@@ -10,7 +10,7 @@
 <body onload="fråga()">
     <h1>Frågesport Huvudstäder</h1>
     <div class="fråga_div">
-        <p id="fråga"> FRÅGA: fråga 1  </p>
+        <p id="fråga"> FRÅGA: </p>
     </div>
 
     <div class="svar_div">
@@ -19,9 +19,15 @@
     </div>
 
     <div>
-        <p id="resultat">SVAR: svar 1</p>
+        <p id="resultat">SVAR: </p>
         <button onclick="fråga()">Ny Fråga</button>
         <button onclick="starta_om()">Nollställ</button>
+    </div>
+
+    <div>
+        <label>Land: <input type="text" id="nytt_land"></label>
+        <label>Huvudstad: <input type="text" id="ny_huvudstad"></label>
+        <button onclick="add_BUTTON()">Lägg till</button>
     </div>
 </body>
 </html>
